@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: calibri, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    justify-content: space-between;
+
+}
+.navbar div {
+    list-style-type: none;
+    display: 
+}
+.judul h2{
+    color: #FFFFFF;
+
+
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.content {
+    padding: 20px;
+}
+.header h1{
+    font-size: 25px;
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.ticker-container {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+
+.ticker {
+    white-space: nowrap;
+    display: inline-block;
+    padding-right: 100%; /* Ensure the ticker moves the entire width of the container */
+    animation: ticker-scroll 1000s linear infinite; /* You can adjust the animation duration here */
+
+}
+
+@keyframes ticker-scroll {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.ticker p {
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    color: #333;
+}
+.container a{
+    margin-left: 50px;
+    margin-bottom: -60px;
+}
+.container img{
+    margin-left: 25px;
+    margin-bottom: -170px;
+}
+.content{
+    margin-left: 5px;
+}
+.conc img{
+    margin-left: 25px;
+}
+.conl img{
+    margin-left: 25px;
+}
+.conb img{
+    margin-left: 25px;
+}
+.conc {
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+    padding-bottom: 25px
+}
+a {
+    text-decoration: none;
+}
